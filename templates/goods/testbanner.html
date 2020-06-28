@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    <script type="text/javascript" src="/static/js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="/static/js/slide.js"></script>
+{% endblock head %}
+
+{% block center_body %}
+    <div class="center_con clearfix">
+		<ul class="subnav fl">
+			<li><a href="#model01" class="fruit">商品</a></li>
+			<li><a href="#model02" class="seafood">商品</a></li>
+			<li><a href="#model03" class="meet">商品</a></li>
+			<li><a href="#model04" class="egg">商品</a></li>
+			<li><a href="#model05" class="vegetables">商品</a></li>
+			<li><a href="#model06" class="ice">商品</a></li>
+		</ul>
+		<div class="slide fl">
+			<ul class="slide_pics">
+                {% for banner in all_banner %}
+                    <li><<a href="{{ banner.url }}"><img src="{{ MEDIA_URL }}{{ banner.image }}"></a></li>
+                {% endfor %}
+			</ul>
+			<div class="prev"></div>
+			<div class="next"></div>
+			<ul class="points"></ul>
+		</div>
+		<div class="adv fl">
+			<a href="#"><img src="/media/banner/2020/06/60fpsparrot.gif"></a>
+			<a href="#"><img src="/media/banner/2020/06/60fpsparrot.gif"></a>
+		</div>
+	</div>
+
+{% endblock center_body %}
