@@ -1,10 +1,8 @@
-#18¼Æ±¾1ÔÆ¶ËÉè¼ÆÆÚÄ©´ó×÷Òµ
-ÒÀÀµ°üÔÚrequirement.txtÄÚ
-pip install -r requirement.txt °²×°ÒÀÀµ°ü
-Ê¹ÓÃÊ±ÐèÒªµ÷Õûmanage.pyÖÐµÄÊý¾Ý¿âÒýÇæÎª×Ô¼ºµÄÊý¾Ý¿âÕËºÅ£¬²¢ÇÒ³õÊ¼»¯Êý¾Ý¿â¡£
+#18è®¡æœ¬1äº‘ç«¯è®¾è®¡æœŸæœ«å¤§ä½œä¸š
+ä¾èµ–åŒ…åœ¨requirement.txtå†…
+pip install -r requirement.txt å®‰è£…ä¾èµ–åŒ…
+ä½¿ç”¨æ—¶éœ€è¦è°ƒæ•´manage.pyä¸­çš„æ•°æ®åº“å¼•æ“Žä¸ºè‡ªå·±çš„æ•°æ®åº“è´¦å·ï¼Œå¹¶ä¸”åˆå§‹åŒ–æ•°æ®åº“ã€‚
 
 by: 
-18¼Æ±¾1º«½¢ºÆ | 18¼Æ±¾1ÕÔ³çÒà | 18¼Æ±¾1ÃÏ³Ð |
-18¼Æ±¾1Àîè÷µt | 18¼Æ±¾1¸ßÃúÊ¯ | 18¼Æ±¾1Àî³Ì |
-
+***ç¬¬ä¸‰ç»„***
 
